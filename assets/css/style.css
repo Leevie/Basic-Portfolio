@@ -1,0 +1,10 @@
+body {
+    background-image: url("..\images\circuit.png");
+    background-color: orange;
+}
+
+#header {
+    background-color: aqua;
+    padding: 20px;
+    color: black;
+}
