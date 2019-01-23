@@ -1,9 +1,22 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    color: #777777;
+  }
+/* Not sure what this does -- applies to all elements? */
+
 body {
     margin: 0;
     padding: 0;
-    background-color: transparent;
+    background-image: url("..\\images\\circuit.png");
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #777777;
+
+}
 
 .bodyBox {
     width: 960px;
@@ -16,6 +29,7 @@ body {
 .topMenu {
     /* background-color: grey; */
     margin: 20px;
+    clear: both;
     
 }
 
@@ -31,9 +45,8 @@ body {
 }
 
 .button {
-    background-color: orangered;
+    background-color: #ffffff;
     border: none;
-    color: black;
     padding: 30px 30px;
     text-align: center;
     font-size: 14px;
@@ -47,10 +60,32 @@ body {
 }
 
 .middleSection {
-    background-color: aqua;
+    background-color: #ffffff;
+    width: 960px;
+    height: 700px;
+    border-top: 2px solid #cccccc;
+    border-bottom: 5px solid #dddddd;
+    clear: both;
+    align-content: center;
+    /* padding: 40px; */
 }
 
+.middleBox {
+    width: 860px;
+    height: 400px;
+    /* padding: 20px; */
+    margin-left: 50px;
+    margin-top: 80px;
+    /* text-align: center; */
+    background: #ffffff;
+    border: 1px solid #eee;
+    position: absolute;
 
-a {
-    text-decoration: none;
+
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    background-color: #dddddd;
 }
